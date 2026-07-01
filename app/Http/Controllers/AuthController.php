@@ -26,6 +26,7 @@ class AuthController extends Controller
         ]);
 
         if (Auth::attempt($credentials, $request->boolean('remember'))) {
+            dd('LOGIN BERHASIL');
             $user = Auth::user();
             
             // Check if user is active
