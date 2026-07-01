@@ -1,4 +1,5 @@
 import './bootstrap';
+import '../css/app.css';
 
 // Sidebar Toggle
 document.addEventListener('DOMContentLoaded', function() {
